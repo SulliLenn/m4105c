@@ -2,7 +2,7 @@ p{
 font-size:20px;
 }
 
-@media screen and (max-witdth:320px){
+@media screen and (max-width: 320px){
 	p{
 	font-size:6px;
 	}
