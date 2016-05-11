@@ -2,6 +2,13 @@ p{
 font-size:20px;
 }
 
+#but{
+	padding:150px;
+	background-image:url(../img/logo.jpg);
+	background-repeat:no-repeat;
+} 
+
+
 @media screen and (max-width: 320px){
 	p{
 	font-size:8px;
