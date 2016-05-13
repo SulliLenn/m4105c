@@ -17,16 +17,48 @@ font-size:1.6em;
 	background-image:url(../img/logo2.jpg);
 	background-repeat:no-repeat;
 	background-size:100%;
-} 
+}
+#mand p{
+	background-image:url(../img/mandrill.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
+}
+table{
+	border:2px solid;
+}
 
+td{
+	border:1px solid;
+}
+
+th{
+	background:grey;
+}
 
 @media screen and (max-width: 320px){
 	p{
-	font-size:50vw;
+		font-size:50vw;
 	}
-	
+	table{
+		width:100%;
+	}
+	tr{
+		width:100%;
+		display:block;
+	}
+	th{
+		width:95%;
+		text-align:center;
+		display:block;
+	}
+	td{
+		width:95%;
+		display:block;
+		text-align:center;
+	}
 	img{
-	width:100%;
+		width:100%;
 	}
 }
 
@@ -34,9 +66,25 @@ font-size:1.6em;
 	p{
 	font-size:1.5em;
 	}
-	
+	table{
+		width:100%;
+	}
+	tr{
+		width:100%;
+		display:block;
+	}
+	th{
+		width:95%;
+		text-align:center;
+		display:block;
+	}
+	td{
+		width:95%;
+		display:block;
+		text-align:center;
+	}
 	img{
-	width:100%;
+		width:100%;
 	}
 }
 
