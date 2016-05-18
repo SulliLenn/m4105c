@@ -1,0 +1,196 @@
+html{
+	font-size:10px;
+	margin:15px;
+}
+
+header ul{
+	display:inline;
+}
+
+ul li{
+	
+	list-style-type:none;
+	width:25%;
+}
+
+p{
+	font-size:1.6em;
+}
+
+/*#but{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:15em;
+	width:30em;
+	background-image:url(../img/logo2.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+}*/
+table{
+	border:2px solid;
+}
+
+td{
+	border:1px solid;
+}
+
+th{
+	background:grey;
+}
+
+header{
+	display:inline-block;
+}
+
+header #imghd{
+	background-image:url(../img/takingtheran.jpg);
+	display:block;
+	background-size:10em 10em;
+	background-repeat:no-repeat;
+	height:10em;
+}
+
+header #menu{
+	display:block;
+	position:right;
+}
+
+#imgpresentation{
+	background-image:url(../img/takingtheran.jpg);
+	display:block;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	height:20em;
+	margin: 0.5em 1em 0.5em 1em;
+}
+
+#imgaligner{
+	width:100%;
+}
+
+#imgaligner span{
+	width:24.6%;
+	display:inline-block;
+	text-align:center;
+}
+
+#imgaligner img {
+	width:10em;
+	height:5.5em;
+}
+
+#imgaligner h1{
+	text-align:center;
+}
+
+#map{
+	width:50em;
+	position:absolute;
+	left:0em;
+	margin-left:2em;
+	margin-right:2em;
+	height:50em;
+}
+
+form{
+	position:absolute;
+	width:45%;
+	right:0em;
+}
+
+form h2{
+	margin-left:5em;
+}
+
+#form1 {
+	
+	width:39%;
+	margin:0em 2em 1em 2em;
+	display:inline-block;
+}
+
+#form2{
+	width:85%;
+	display:inline-block;
+	margin-right:2em;
+	margin-left:2em;
+	margin-bottom:1em;
+}
+
+#form3{
+	width:85%;
+	display:inline-block;
+	margin-right:2em;
+	margin-left:2em;
+	margin-bottom:1em;
+	height:5em;
+}
+
+#formboutton{
+	position:absolute;
+	right:5em;
+}
+
+
+@media screen and (max-width: 320px){
+	p{
+		font-size:50vw;
+	}
+	table{
+		width:100%;
+	}
+	tr{
+		width:100%;
+		display:block;
+	}
+	th{
+		width:95%;
+		text-align:center;
+		display:block;
+	}
+	td{
+		width:95%;
+		display:block;
+		text-align:center;
+	}
+	img{
+		width:100%;
+	}
+}
+
+@media screen and (max-width: 480px){
+	p{
+	font-size:1.5em;
+	}
+	table{
+		width:100%;
+	}
+	tr{
+		width:100%;
+		display:block;
+	}
+	th{
+		width:95%;
+		text-align:center;
+		display:block;
+	}
+	td{
+		width:95%;
+		display:block;
+		text-align:center;
+	}
+	img{
+		width:100%;
+	}
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 2), /*chrome safari ...*/  
+ only screen and (-moz-min-device-pixel-ratio: 1.5), /*mozilla*/  
+ only screen and (-o-min-device-pixel-ratio: 3/2),  /*owerwise*/
+ only screen and (min-device-pixel-ratio: 1.5) /**/{   
+   img{  
+     background-image: url(../img/logo.jpg);  
+	 background-size:100% auto;
+   }  
+ }
